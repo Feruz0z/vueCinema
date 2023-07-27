@@ -1,0 +1,18 @@
+@import 'reset.css';
+@import 'fonts.css';
+@import './componets/header.css';
+@import './componets/main.css';
+@import './componets/footer.css';
+
+:root {
+   --whiteColor: #fff;
+   --primaryColor: #040D1F;
+   --com: 'Comfortaa';
+   --mont: 'Montserrat';
+   --orangeColor: #ED8E00;
+   --rob: "Roboto";
+}
+
+body {
+   background: var(--primaryColor);
+}
